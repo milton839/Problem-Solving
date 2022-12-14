@@ -6,6 +6,7 @@ const length = array.length;
 // console.log(array.reverse());
 
 
+
 /**
  * !Method-02
  */
@@ -20,8 +21,8 @@ const length = array.length;
  * !Method-03
  */
 
-// const revArray = array.map((item, index)=>array[array.length-1-index])
-// console.log(revArray);
+const revArray = array.map((item, index)=>array[array.length-1-index])
+console.log(revArray);
 
 /**
  * ! Method - 04
